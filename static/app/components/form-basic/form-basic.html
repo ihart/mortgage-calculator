@@ -1,0 +1,14 @@
+<form novalidate class="simple-form">
+
+  Mortgage amount: <input type="text" ng-model="mortgage.amount" min="2" max="40" integer /><br />
+
+  Term (years): <input type="number" ng-model="mortgage.term" /><br />
+
+  Interest rate (%): <input type="text" ng-model="mortgage.rate" /><br />
+
+  <input type="submit" ng-click="update(mortgage)" value="Save" />
+
+</form>
+
+<pre>user = {{mortgage | json}}</pre>
+<pre>master = {{master | json}}</pre>

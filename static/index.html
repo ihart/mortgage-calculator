@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mortgage Calculator</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div ng-app="mortgageApp">
+
+    <div ng-controller="mainCtrl as ctrl">
+
+      <header desc="ctrl.desc" title="ctrl.title"></header>
+
+      <form-basic></form-basic>
+
+    </div>
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  <script src="app/app.js"></script>
+  <script src="app/components/header/header.js"></script>
+  <script src="app/components/form-basic/form-basic.js"></script>
+
+</body>
+</html>
